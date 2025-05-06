@@ -23,4 +23,4 @@ Local Search found. Why is this?
 Add the code to run your experiments, graphs, and an explanation of what you did
 to this markdown file.
 
-[Example Image](GraphNumbers.pdf)
+[Example Image](GraphNumbers.png)
