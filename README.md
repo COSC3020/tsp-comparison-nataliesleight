@@ -33,6 +33,10 @@ For runtime, the time it takes for the Held-Karp algorithm to run increases expo
 
 For the tour length returned, Held-Karp always returns a value less than or equal to Local-Search. This is because Held-Karp methodically tests each path, finding and returning the true shortest tour length. Local-Search randommly tests for a shorter path with no guarantee of finding the shortest one. As the input size increases, the tour length returned by Local-Search becomes greater and greater than what is returned by Help-Karp. There is less chance for the randomness factor to find shorter paths while testing. While Help-Karp boasts greater accuracy, it comes at the cost of an increasingly greater run time. 
 
+[Local Search Time](LocalSearchHour.png)
+
+
+
 [Data Table](GraphNumbers.png)
 
 This table holds the values I recorded from running my code.
