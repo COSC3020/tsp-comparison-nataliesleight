@@ -35,11 +35,13 @@ For the tour length returned, Held-Karp always returns a value less than or equa
 
 [Local Search Time](LocalSearchHour.png)
 
-
+Going past the hour-causing input for Held-Karp, I continued to test different input sizes for Local-Search. The runtime increased slowly, so I testing the function with input sizes incrementing by 100. The runtime started to exponentially increase, reaching over an hour at input size 1100. 
 
 [Data Table](GraphNumbers.png)
 
-This table holds the values I recorded from running my code.
+[Data Table 2](localsearchtime.png)
+
+These tables hold the values I recorded from running my code.
 
 ### Sources:
 
