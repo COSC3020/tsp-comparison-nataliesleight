@@ -117,16 +117,30 @@ function calcLength(path, graph) {
     return lenSum;
 }
 
-const max = 21;
-for (var n = 0; n <= max; n++) {
+const max1 = 21;
+const min1 = 0;
+for (var n = min1; n <= max1; n++) {
 var arr = generateMatrix(n); // include input generation complete message
 console.log("size: ", n);
+
 const start = Date.now();
 console.log("Held Karp: ", tsp_hk(arr));
 const end = Date.now();
 console.log(`Execution time: ${end - start} ms`);
+
 const start2 = Date.now();
 console.log("Local Search: ", tsp_ls(arr));
 const end2 = Date.now();
 console.log(`Execution time: ${end2 - start2} ms`);
+}
+
+const max2 = 1100;
+const min2 = 0;
+for (var n = min2; n <= max2; n+=100) {
+    var arr = generateMatrix(n); // include input generation complete message
+    console.log("size: ", n);
+    const start3 = Date.now();
+    console.log("Local Search: ", tsp_ls(arr));
+    const end3 = Date.now();
+    console.log(`Execution time: ${end3 - start3} ms`);
 }
